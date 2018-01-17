@@ -1,0 +1,16 @@
+[login]
+remember_passwd = 1
+auto_login = 1
+
+[server]
+host = 127.0.0.1
+port = 8000
+
+[user]
+id = A0000
+name = 刘利军
+hospital = 北医三院
+type = 医生
+title = 主任
+password = 123456
+

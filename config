@@ -2,8 +2,10 @@
 remember_passwd = 1
 
 [user]
-account = 17688889999
-name = 朱彦青
+account = 13088889999
+name = 肖护士
+hospital = 北医三院
+type = 医生
+title = 医生
 password = 123456
-type = 超级管理员
 

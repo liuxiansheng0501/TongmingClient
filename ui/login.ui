@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>411</width>
+    <height>339</height>
    </rect>
   </property>
   <property name="focusPolicy">
@@ -17,27 +17,28 @@
    <string>儿童眼保健检查系统</string>
   </property>
   <property name="windowIcon">
-   <iconset>
-    <normaloff>../../../../../myself/项目/朱总(北京同明眼科)/png/timg.jpg</normaloff>../../../../../myself/项目/朱总(北京同明眼科)/png/timg.jpg</iconset>
+   <iconset resource="../source/image.qrc">
+    <normaloff>:/source/doctor_64px.png</normaloff>:/source/doctor_64px.png</iconset>
   </property>
   <property name="toolTip">
-   <string>请联系本医院管理员</string>
+   <string/>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(245, 245, 245);
+font: 16pt &quot;新宋体&quot;;
 border-color: rgb(245, 245, 245);</string>
   </property>
   <widget class="QLabel" name="username">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>70</y>
-     <width>71</width>
+     <x>60</x>
+     <y>110</y>
+     <width>101</width>
      <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 12pt &quot;华文楷体&quot;;</string>
+    <string notr="true">font: 16pt &quot;新宋体&quot;;</string>
    </property>
    <property name="text">
     <string>用户名:</string>
@@ -49,17 +50,17 @@ border-color: rgb(245, 245, 245);</string>
   <widget class="QLabel" name="passwd">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>120</y>
-     <width>71</width>
+     <x>40</x>
+     <y>160</y>
+     <width>121</width>
      <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 12pt &quot;华文楷体&quot;;</string>
+    <string notr="true">font: 16pt &quot;新宋体&quot;;</string>
    </property>
    <property name="text">
-    <string>密    码:</string>
+    <string>密  码:</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -69,27 +70,30 @@ border-color: rgb(245, 245, 245);</string>
    <property name="geometry">
     <rect>
      <x>170</x>
-     <y>70</y>
-     <width>141</width>
+     <y>110</y>
+     <width>181</width>
      <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(255, 255, 255);
-font: 12pt &quot;Times New Roman&quot;;</string>
+font: 10pt &quot;新宋体&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
    </property>
   </widget>
   <widget class="QLineEdit" name="input_passwd">
    <property name="geometry">
     <rect>
      <x>170</x>
-     <y>120</y>
-     <width>141</width>
+     <y>160</y>
+     <width>181</width>
      <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 12pt &quot;Times New Roman&quot;;background-color: rgb(255, 255, 255);</string>
+    <string notr="true">font: 10pt &quot;新宋体&quot;;background-color: rgb(255, 255, 255);</string>
    </property>
    <property name="echoMode">
     <enum>QLineEdit::Password</enum>
@@ -98,31 +102,31 @@ font: 12pt &quot;Times New Roman&quot;;</string>
   <widget class="QPushButton" name="btn_login">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>210</y>
-     <width>211</width>
-     <height>31</height>
+     <x>70</x>
+     <y>250</y>
+     <width>281</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 12pt &quot;华文楷体&quot;;
+    <string notr="true">font: 16pt &quot;新宋体&quot;;
 background-color: rgb(245, 245, 245);</string>
    </property>
    <property name="text">
-    <string>登    录</string>
+    <string>登  录</string>
    </property>
   </widget>
   <widget class="QCheckBox" name="checkBox_rem_passwd">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>170</y>
-     <width>91</width>
-     <height>19</height>
+     <x>70</x>
+     <y>210</y>
+     <width>131</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 10pt &quot;华文楷体&quot;;</string>
+    <string notr="true">font: 12pt &quot;新宋体&quot;;</string>
    </property>
    <property name="text">
     <string>记住密码</string>
@@ -131,14 +135,15 @@ background-color: rgb(245, 245, 245);</string>
   <widget class="QLabel" name="label_login_tips">
    <property name="geometry">
     <rect>
-     <x>110</x>
-     <y>250</y>
-     <width>201</width>
+     <x>70</x>
+     <y>300</y>
+     <width>281</width>
      <height>20</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(255, 0, 0);</string>
+    <string notr="true">color: rgb(255, 0, 0);
+font:8pt &quot;新宋体&quot;;</string>
    </property>
    <property name="text">
     <string/>
@@ -148,19 +153,55 @@ background-color: rgb(245, 245, 245);</string>
    <property name="geometry">
     <rect>
      <x>240</x>
-     <y>172</y>
-     <width>72</width>
-     <height>15</height>
+     <y>212</y>
+     <width>111</width>
+     <height>31</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>请联系该系统的医院管理员！</string>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
    <property name="styleSheet">
-    <string notr="true">font: 10pt &quot;华文楷体&quot;;</string>
+    <string notr="true">font: 12pt &quot;新宋体&quot;;</string>
    </property>
    <property name="text">
     <string>忘记密码</string>
    </property>
   </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>10</y>
+     <width>71</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/source/hospital2.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>:/source/man.png</pixmap>
+   </property>
+  </widget>
+  <zorder>label_2</zorder>
+  <zorder>username</zorder>
+  <zorder>passwd</zorder>
+  <zorder>input_username</zorder>
+  <zorder>input_passwd</zorder>
+  <zorder>btn_login</zorder>
+  <zorder>checkBox_rem_passwd</zorder>
+  <zorder>label_login_tips</zorder>
+  <zorder>label</zorder>
  </widget>
- <resources/>
+ <resources>
+  <include location="../source/image.qrc"/>
+ </resources>
  <connections/>
 </ui>
